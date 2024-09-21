@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: mediumpurple;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    justify-content:flex-end;
+    border-left: mediumpurple;
+    border-right: mediumpurple;
+    border-top: white;
+    border-bottom: white;
+    height: 100%;
+    position: fixed;
+}
+.nav-list {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+.nav-list li a {
+    display: block; 
+    color: white; 
+    text-decoration: none; 
+    font-size: 1.1em; 
+    padding: 5px;
+}
+
+.nav-list li a:hover {
+    background-color: darkorchid; 
+    color: white; 
+
+}
+nav a:hover{
+    color: blueviolet;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.0em;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.resume-section {
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid mediumpurple;
+    padding-bottom: 5px;
+}
+
+.job, .education {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color:mediumpurple;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
